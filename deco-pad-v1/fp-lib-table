@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name type-c)(type KiCad)(uri ${KIPRJMOD}/lib/type-c)(options "")(descr ""))
+  (lib (name mx-alps-hybrid)(type KiCad)(uri ${KIPRJMOD}/lib/mx-alps-hybrid)(options "")(descr ""))
+)
