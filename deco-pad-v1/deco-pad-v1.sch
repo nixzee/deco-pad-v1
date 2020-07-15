@@ -1600,8 +1600,6 @@ Text GLabel 4500 1150 2    50   Input ~ 0
 E0_PAD_A
 Text GLabel 4500 1350 2    50   Input ~ 0
 E0_PAD_B
-Text GLabel 4500 1850 2    50   Input ~ 0
-E1_PAD_A
 Text GLabel 4500 2050 2    50   Input ~ 0
 E1_PAD_B
 Text GLabel 4500 2600 2    50   Input ~ 0
@@ -1977,4 +1975,6 @@ Wire Notes Line
 	5100 3500 7450 3500
 Wire Notes Line
 	7450 3500 7450 1600
+Text GLabel 4500 1850 2    50   Input ~ 0
+E1_PAD_A
 $EndSCHEMATC
