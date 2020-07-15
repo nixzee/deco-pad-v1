@@ -1,4 +1,6 @@
 (fp_lib_table
   (lib (name type-c)(type KiCad)(uri ${KIPRJMOD}/lib/type-c)(options "")(descr ""))
-  (lib (name mx-alps-hybrid)(type KiCad)(uri ${KIPRJMOD}/lib/mx-alps-hybrid)(options "")(descr ""))
+  (lib (name mx-alps-hybrid)(type KiCad)(uri C:/Users/zuchlewskin/kicad/deco-pad-v1/deco-pad-v1/lib/mx-alps-hybrid/MX_Alps_Hybrid.pretty)(options "")(descr ""))
+  (lib (name MX_Only)(type KiCad)(uri ${KIPRJMOD}/lib/mx-alps-hybrid/MX_Only.pretty)(options "")(descr ""))
+  (lib (name Nexperia)(type KiCad)(uri ${KIPRJMOD}/lib/savenlid/footprints/Nexperia)(options "")(descr ""))
 )
