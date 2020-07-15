@@ -1596,15 +1596,15 @@ Text GLabel 1950 5800 0    50   Input ~ 0
 E2_PAD_A
 Text GLabel 1950 6100 0    50   Input ~ 0
 E2_PAD_B
-Text GLabel 4500 1150 2    50   Input ~ 0
-E0_PAD_A
 Text GLabel 4500 1350 2    50   Input ~ 0
+E0_PAD_A
+Text GLabel 4500 1150 2    50   Input ~ 0
 E0_PAD_B
-Text GLabel 4500 2050 2    50   Input ~ 0
+Text GLabel 4500 1850 2    50   Input ~ 0
 E1_PAD_B
-Text GLabel 4500 2600 2    50   Input ~ 0
-E2_PAD_A
 Text GLabel 4500 2800 2    50   Input ~ 0
+E2_PAD_A
+Text GLabel 4500 2600 2    50   Input ~ 0
 E2_PAD_B
 Wire Wire Line
 	4500 1150 4400 1150
@@ -1945,8 +1945,6 @@ Connection ~ 6100 2450
 Wire Wire Line
 	6100 2450 7000 2450
 Wire Wire Line
-	5900 2050 5900 2750
-Wire Wire Line
 	5850 2850 6150 2850
 Wire Wire Line
 	6250 2650 6200 2650
@@ -1961,11 +1959,6 @@ Wire Wire Line
 Wire Wire Line
 	7000 3250 6150 3250
 Wire Wire Line
-	6250 2750 5900 2750
-Connection ~ 5900 2750
-Wire Wire Line
-	5900 2750 5900 2950
-Wire Wire Line
 	7050 2350 6200 2350
 Connection ~ 6200 2350
 Wire Wire Line
@@ -1975,6 +1968,9 @@ Wire Notes Line
 	5100 3500 7450 3500
 Wire Notes Line
 	7450 3500 7450 1600
-Text GLabel 4500 1850 2    50   Input ~ 0
+Text GLabel 4500 2050 2    50   Input ~ 0
 E1_PAD_A
+Wire Wire Line
+	5900 2050 5900 2950
+NoConn ~ 6250 2750
 $EndSCHEMATC
